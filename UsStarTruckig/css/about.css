@@ -1,0 +1,836 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.WelcomePage{
+    padding: 1px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7));
+}
+.WelcomePage video{
+    position: absolute;
+    z-index: -1;
+}
+.BrandInfo{
+    margin-top: 15%;
+}
+
+p {
+     color: #D3D3D7;        
+     font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.icon-item {
+    margin: 0 7px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    transition: 0.3s;
+}
+
+.icon-item i {
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.icon-item:hover {
+    background-color: #fff;
+}
+
+.icon-item:hover .fa-brands {
+    color: #000;
+}
+
+.tel-menu {
+    margin-left: 10px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.CallNumber {
+    padding: 12px;
+    background-color: #ff0000;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+.tel-menu:hover .CallNumber {
+    background-color: #ffffff;
+    color: #000000;
+}
+.statistic{
+    padding: 10px;
+    background-color: #28293A;
+    color: #fff;
+}
+.statistic .item{
+    margin-top: 50px;
+}
+.statistic .item i{
+    font-size: 60px;
+}
+.our{
+    padding: 10px;
+    width: 100%;
+    background-color: #1A1B26;
+}
+.ourCard{
+    height: 600px;
+    padding: 10px;
+    background-color: #363749;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.4s;
+}
+.ourInfo{
+    margin-top: 30px;
+}
+.ourInfo p{
+    color: #fff;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.ourCard img{
+    width: 254px;
+    height: 253px;
+}
+.ourCard:hover{
+    transform: translateY(-12px);
+}
+.ourTeam {
+    padding: 10px;
+    background-color: #28293A;
+    
+}
+.OurMainTeam{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.ourTeamHeader{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.teamCard{
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #363749;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.3s;
+} 
+.teamCard:hover {
+    transform: translateY(-3px);
+    background-color: #55566A;
+}
+.teamnateImage img{
+    border: 1px solid #AAABB2;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedIcons{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.feedIcons a{
+    text-decoration: none;
+}
+.teamnateInfo p{
+    margin-top: 2px;
+    font-size: 14px;
+    color: #6A6C75;
+}
+.teamnateInfo h5{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+footer{
+    padding: 10px;
+    width: 100%;
+    background-color: #1A1B26;
+    color: #fff;
+}
+
+footer .col-md-2 .d-block a{
+    font-size: 14px;
+    margin: 2px 0;
+    text-decoration: none;
+    color: #fff;
+}
+.gmail form{
+    display: flex;
+}
+.QuickLinks a{
+    text-decoration: none;
+    color: #fff;
+}
+.info p{
+    font-size: 14px;
+}
+.footer-icon div:nth-child(1){
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.input-item input {
+    color: #fff;
+    margin: 0 5px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.emailBtn {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0 15px;
+    border: 1px solid #fff;
+    height: 37px;
+    color: #000;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.emailBtn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.bottom-footer{
+    margin-top: 15px;
+}
+.Privacy{
+    margin-left: auto;
+}
+
+.Privacy a{
+    margin: 0 4px;
+    text-decoration: none;
+    color: #fff;
+}
+.trustedby{
+    width: 100%;
+    background-color: #1A1B26;
+    color: #fff;
+    padding: 10px;
+}
+.trustedCard{
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: #363749;
+    transition: 0.4s;
+}
+.trustedCard img{
+    margin: 15px 0;
+}
+
+.trustedCard:hover{
+    background-color: #525367;
+    transform: translateY(-10px);
+}
+.country{
+    padding: 10px;
+    color: #ffffff;
+    background-color: #1A1B26;
+}
+
+.country .container{
+    margin-top: 40px;
+}
+
+
+/* Slider */
+.countryBtn{
+    margin-top: 18px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    width: 100%;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.countryBtn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body a:hover{
+    text-decoration: none; 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.icon-item {
+    margin: 0 7px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    transition: 0.3s;
+    height: 30px;
+    margin-top: 6px;
+}
+.call a{
+    margin-top: 2px;
+}
+.icon-item i{
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.icon-item:hover {
+    background-color: #fff;
+}
+
+.icon-item:hover .fa-brands {
+    color: #000;
+}
+
+.tel-menu {
+    margin-left: 10px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.CallNumber {
+    padding: 12px;
+    background-color: #ff0000;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+.tel-menu:hover .CallNumber {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.country{
+    padding: 10px;
+    color: #ffffff;
+    background-color: #1A1B26;
+}
+
+.country .container{
+    margin-top: 40px;
+}
+
+
+/* Slider */
+.countryBtn{
+    margin-top: 18px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    width: 100%;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.countryBtn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.reviews{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    /* height: 440px; */
+    background-color: #28293A;  
+}
+.reviewsCard:hover {
+    transform: translateY(-5px);
+    background-color: #525367;
+}
+.reviewsCard{
+    height: 350px;
+    padding: 10px;
+    color: #fff;    
+    background-color: #363749;
+    transition: 0.4s;
+}
+.reviews .container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-header img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;    
+}
+.infoUser{
+    margin-left: 10px;
+}
+.infoUser h5{
+    margin: 0;
+}
+.partnerImg{
+    margin-top: -15px;
+    width: 150px;
+}
+.card-rating{
+    margin: 18px
+}
+.partnerBrand{
+    margin-left: auto;
+}
+.rating-text{
+    margin-top: -10px;
+}
+.opText{
+    font-size: 13px;
+    color: #62656F;
+}
+.starIcons{
+    margin-top: -5px;
+}
+.starIcons i{
+    font-size: 12px;
+    color: #FDD209
+}
+
+footer{
+    padding: 10px;
+    width: 100%;
+    background-color: #1A1B26;
+    color: #fff;
+}
+
+footer .col-md-2 .d-block a{
+    font-size: 14px;
+    margin: 2px 0;
+    text-decoration: none;
+    color: #fff;
+}
+.footerBrands img{
+    margin: 10px 10px;
+}
+.info p{
+    font-size: 14px;
+}
+.footer-icon div:nth-child(1){
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+.emailInput{
+    width: 100%;
+    background-color: transparent;
+}
+.emailBtn{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0 15px;
+    border: 1px solid #fff;
+    height: 37px;
+    color: #000;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.emailBtn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.bottom-footer{
+    display: flex;
+    margin-top: 15px;
+}
+.Privacy{
+    margin-left: auto;
+}
+
+.Privacy a{
+    margin: 0 4px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* About */
+
+.trustedby{
+    width: 100%;
+    background-color: #1A1B26;
+    color: #fff;
+    padding: 10px;
+}
+.mainTrusted{
+    margin-top: 10px;
+}
+.trustedCard{
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: #363749;
+    transition: 0.4s;
+}
+.trustedCard img{
+    margin: 15px 0;
+}
+
+.trustedCard:hover{
+    background-color: #525367;
+    transform: translateY(-10px);
+}
+.blog{
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background-color: #28293A;
+
+}
+.blog .blogContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogCard{
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 600px;
+    background-color: #363749;
+}
+.blogUser{
+    margin-top: 55px;
+}
+.blogUser img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.blogUser div:nth-child(2){
+    margin-left: 10px;
+}
+
+.blogUser div:nth-child(2) > h3{
+    font-size: 20px;
+}
+
+.blog .toIcon{
+    margin-top: 15px;
+}
+
+.input-item{
+    margin: 10px 0;
+    padding: 5px 12px;
+    background-color: #30313B;
+    border: 1px solid #45464F;
+    border-radius: 10px;
+    display: flex;
+    outline: none;
+
+}
+.input-item svg{
+    color: #fff;
+}
+.input-item input{
+    color: #fff;
+    margin: 0 5px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+@media only screen and (max-width: 500px) and (min-width: 300px){
+    .section-titles{
+        font-size: 17px;
+    }
+    .reviewsCard{
+        margin: 10px 0;
+        height: 340px;
+    }
+    .steps-num{ 
+        width: 60px;
+        height: 55px;
+    }
+    .steps{
+        text-align: center;
+    }
+    .stepsItem{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .wrapper2{
+        text-align: center;
+    }
+    .wrapper2{
+        text-align: center;
+    }
+    .countryTitles{
+        text-align: center;
+        font-size: 22px;
+    }
+    .rating{
+        margin-top: -5px;
+    }
+    .rating .starIcons i{
+        font-size: 10px;
+    }
+    .partnerImg{
+        width: 80px;
+    }
+    .CallIcon{
+        display: none;
+    }
+    .bottom-footer .Privacy a{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 500px) {
+
+    .section-titles{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .steps-num{ 
+        width: 60px;
+        height: 55px;
+    }
+    .stepsItem{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .reviewsCard {
+        margin: 10px 0;
+    }
+    .partnerBrand img{
+        width: 100px;
+    }
+    .blogHeader{
+        margin-left: 10px;
+    }
+    .blogCard{
+        margin-top: 10px;
+    }
+    .blogCard h3{
+        font-size: 20px;
+    }
+    .blogCard p{
+        font-size: 15px;
+    }
+    footer .info{
+        margin-top: 20px;
+    }
+    .bottom-footer{
+        display: block;
+    }
+    .right-menu{
+        margin-left: -10px;
+    }
+    .country .main{
+        display: block;
+    }
+    .reviewsCard .reviewsNav h4{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .reviewsCard{
+        margin: 10px 0;
+        height: 300px;
+    }
+    .footerBrands{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 576px)  {
+
+    .section-titles{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .steps-num{ 
+        width: 60px;
+        height: 55px;
+    }
+    .stepsItem{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .reviewsCard {
+        margin: 10px 0;
+        height: 280px;
+    }
+    .partnerBrand img{
+        width: 100px;
+    }
+    .blogHeader{
+        margin-left: 10px;
+    }
+    .blogCard{
+        margin-top: 10px;
+    }
+    .blogCard h3{
+        font-size: 20px;
+    }
+    .blogCard p{
+        font-size: 15px;
+    }
+    footer .info{
+        margin-top: 20px;
+    }
+    .bottom-footer{
+        display: block;
+    }
+    .country .row{
+        display: block;
+    }
+    .reviewsCard .reviewsNav h4{
+        margin-top: 10px;
+        font-size: 19px;
+    }
+
+
+
+}
+@media only screen and (max-width: 992px) and (min-width: 768px)  {
+    .steps-num{ 
+        width: 120px;
+        height: 50px;
+    }
+    .country .row{
+        display: block;
+        width: 100%;
+    }
+    .country .row .col-md-6{
+        width: 100%;
+    }
+    .country .row .col-md-6:nth-child(2) h1{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .reviewsCard{
+        margin: 10px 0;
+    }
+    .reviewsCard{
+        margin: 10px 0;
+        height: 270px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px)  {
+    .right-menu{
+        margin-top: -5px;
+    }
+    .steps-num{ 
+        width: 90px;
+        height: 55px;
+    }
+
+    .country .row .col-md-6 h1{
+        font-size: 30px;
+    }
+    .reviewsCard{
+        margin: 10px 0;
+        height: 300px;
+    }
+    .right-menu{
+        margin-top: 5px;
+    }
+    .nav-link{
+        font-size: 11px;
+    }
+    .icon-item{
+        margin: 0 2px;
+    }
+    .call a{
+        margin-left: 5px;
+        margin-top: -3px;
+    }
+    .navbar-brand img{
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1200px)  {
+    .tel-menu{
+        margin-top: 0px;
+    }
+    .right-menu{
+        margin-top: -5px;   
+    }
+    .steps-num{ 
+        width: 75px;
+        height: 55px;
+    }
+    .country .row .col-md-6 h1{
+        font-size: 30px;
+    }
+    .reviewsCard{
+        margin: 10px 0;
+        height: 300px;
+    }
+    .nav-link{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1400px)  {
+    .tel-menu{
+        margin-top: 0px;
+    }
+    .right-menu{
+        margin-top: -1px;
+    }
+    .country .row .col-md-6 h1{
+        font-size: 35px;
+    }
+    .country .row .col-md-6 .form-select{
+        width: 90%;
+    }    
+    .country .row .col-md-6 .form-control, .countryBtn{
+        width: 90%;
+    }
+    .reviewsCard{
+        margin: 10px 0;
+        height: 310px;
+    }
+    .call a{
+        margin-top: 2px;
+    }
+    .navbar-nav{
+        margin-left: auto;
+    }
+
+}
